@@ -14,7 +14,7 @@ zuul:
   routes:
     api-a:
       path: /api/a/**
-      serviceId: hello-spring-cloud-eureka-ribbon
+      serviceId: spring-cloud-eureka-ribbon
     api-b:
       path: /api/b/**
-      serviceId: hello-spring-cloud-eureka-feign
+      serviceId: spring-cloud-eureka-feign
